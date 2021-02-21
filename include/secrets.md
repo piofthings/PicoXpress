@@ -14,6 +14,9 @@ const char *mqtt_user = "";
 const char *mqtt_password = "";
 // Topic that the ESP is subscribing to e.g. "zigbee2mqtt/0x00124b00226b5c99"
 const char *in_topic = "";
-
+// OR
+// Bearer token from HomeAssistant. The word `Bearer ` must be present before the actual token. 
+// The entire string is added as "Authorization" header
+const char *hassio_auth_header = "Bearer <token from Home Assistant>";
 
 ```
